@@ -38,4 +38,3 @@ CREATE TABLE contrat_bail(
     FOREIGN KEY (id_proprietaire) REFERENCES proprietaire(id_proprietaire),
     FOREIGN KEY (id_locataire) REFERENCES locataire(id_locataire)
 );
-
